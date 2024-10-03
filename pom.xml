@@ -1,0 +1,111 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>io.github.halitkalayci</groupId>
+  <artifactId>example.demo</artifactId>
+  <version>1.0</version>
+  <packaging>jar</packaging>
+
+  <name>example.demo</name>
+  <url>http://maven.apache.org</url>
+  <description>Your project description here</description>
+
+
+  <distributionManagement>
+    <repository>
+      <id>central</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
+
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>your-id</id>
+      <name>Your Name</name>
+      <email>your.email@example.com</email>
+    </developer>
+  </developers>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.3.1</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <version>3.2.1</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+
+      <plugin>
+        <groupId>org.sonatype.central</groupId>
+        <artifactId>central-publishing-maven-plugin</artifactId>
+        <version>0.6.0</version>
+        <extensions>true</extensions>
+        <configuration>
+          <publishingServerId>central</publishingServerId>
+        </configuration>
+      </plugin>
+
+
+
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-gpg-plugin</artifactId>
+        <version>1.6</version>
+        <executions>
+          <execution>
+            <id>sign-artifacts</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>sign</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+    </plugins>
+  </build>
+</project>

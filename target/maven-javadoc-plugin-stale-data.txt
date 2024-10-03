@@ -1,0 +1,45 @@
+@options
+@packages
+@argfile
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/Users/klyyc/Desktop/Projects/Java/example.demo/src/main/java;C:/Users/klyyc/Desktop/Projects/Java/example.demo/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/klyyc/Desktop/Projects/Java/example.demo/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'example.demo 1.0 API'
+-use
+-version
+-windowtitle
+'example.demo 1.0 API'
+org.example
+'C:/Users/klyyc/Desktop/Projects/Java/example.demo/src/main/java/org/example/App.java'
+C:\Users\klyyc\Desktop\Projects\Java\example.demo\src\main\java = 1727978270875
+C:\Users\klyyc\Desktop\Projects\Java\example.demo\target\generated-sources\annotations = 1727995219427
+C:\Users\klyyc\Desktop\Projects\Java\example.demo\target\apidocs\allclasses-index.html = 1727995227915
+C:\Users\klyyc\Desktop\Projects\Java\example.demo\target\apidocs\allpackages-index.html = 1727995227918
+C:\Users\klyyc\Desktop\Projects\Java\example.demo\target\apidocs\element-list = 1727995227866
+C:\Users\klyyc\Desktop\Projects\Java\example.demo\target\apidocs\help-doc.html = 1727995227954
+C:\Users\klyyc\Desktop\Projects\Java\example.demo\target\apidocs\index-all.html = 1727995227945
+C:\Users\klyyc\Desktop\Projects\Java\example.demo\target\apidocs\index.html = 1727995227947
+C:\Users\klyyc\Desktop\Projects\Java\example.demo\target\apidocs\jquery-ui.overrides.css = 1727995227978
+C:\Users\klyyc\Desktop\Projects\Java\example.demo\target\apidocs\member-search-index.js = 1727995227924
+C:\Users\klyyc\Desktop\Projects\Java\example.demo\target\apidocs\module-search-index.js = 1727995227920
+C:\Users\klyyc\Desktop\Projects\Java\example.demo\target\apidocs\overview-tree.html = 1727995227904
+C:\Users\klyyc\Desktop\Projects\Java\example.demo\target\apidocs\package-search-index.js = 1727995227921
+C:\Users\klyyc\Desktop\Projects\Java\example.demo\target\apidocs\script.js = 1727995227960
+C:\Users\klyyc\Desktop\Projects\Java\example.demo\target\apidocs\search.js = 1727995227964
+C:\Users\klyyc\Desktop\Projects\Java\example.demo\target\apidocs\stylesheet.css = 1727995227959
+C:\Users\klyyc\Desktop\Projects\Java\example.demo\target\apidocs\tag-search-index.js = 1727995227927
+C:\Users\klyyc\Desktop\Projects\Java\example.demo\target\apidocs\type-search-index.js = 1727995227923
